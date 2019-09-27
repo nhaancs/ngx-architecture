@@ -22,3 +22,9 @@ const firebaseOptions = {
   messagingSenderId: ""
 };
 ```
+
+- libs\lms\business\authors\src\lib\lms-business-authors.module.ts
+- libs\lms\business\courses\src\lib\lms-business-courses.module.ts
+- libs\security\src\lib\security.module.ts
+
+> Note: the reference app will be updated to _seed_ the database with sample data.
