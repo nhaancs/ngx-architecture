@@ -12,7 +12,6 @@ import { RuleResult } from '@ngx-architecture/rules-engine';
 
 import { LoggingService } from '@ngx-architecture/logging';
 import { Severity } from '@ngx-architecture/logging';
-import { HttpBaseService } from './http-base.service';
 import { ErrorResponse } from './models/error-response.model';
 
 /**
@@ -39,7 +38,6 @@ import { ErrorResponse } from './models/error-response.model';
 export class ActionBase extends Action {
   serviceContext: ServiceContext;
   response: Observable<any>;
-  httpBase: HttpBaseService;
   loggingService: LoggingService;
   actionName: string;
 

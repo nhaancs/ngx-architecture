@@ -3,7 +3,6 @@ export { ServiceBase } from './lib/service-base';
 export { ActionBase } from './lib/action-base.action';
 export { BusinessProviderBase } from './lib/business-provider-base.service';
 export { ComponentBase } from './lib/component-base.component';
-export { HttpBaseService } from './lib/http-base.service';
 
 export { ErrorResponse } from './lib/models/error-response.model';
 export { ServiceError } from './lib/models/service-error.model';
