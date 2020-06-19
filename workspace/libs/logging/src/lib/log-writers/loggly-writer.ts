@@ -1,12 +1,13 @@
 import { LogWriter } from './log-writer';
 import { ILogEntry } from '../i-log-entry';
 import { ConfigurationService } from '@angularlicious/configuration';
-import { Optional } from '@angular/core';
+import { Optional, Injectable } from '@angular/core';
 import { LogglyService } from 'ngx-loggly-logger';
 import { LoggingService } from '../logging.service';
 import { IConfiguration } from '@angularlicious/configuration';
 import { LogglyConfig } from './../config/loggly-config';
 
+@Injectable()
 export class LogglyWriter extends LogWriter {
   config: LogglyConfig;
 
