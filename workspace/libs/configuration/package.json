@@ -1,5 +1,5 @@
 {
-  "name": "@angularlicious/configuration",
+  "name": "@ngx-architecture/configuration",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^8.0.0",

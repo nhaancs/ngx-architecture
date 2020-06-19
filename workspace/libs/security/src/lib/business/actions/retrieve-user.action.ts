@@ -1,5 +1,5 @@
 import { BusinessActionBase } from './business-action-base';
-import { StringIsNotNullEmptyRange } from '@angularlicious/rules-engine';
+import { StringIsNotNullEmptyRange } from '@ngx-architecture/rules-engine';
 
 export class RetrieveUserAction<T> extends BusinessActionBase<T> {
   constructor(private userId: string) {

@@ -1,6 +1,6 @@
 import { Injectable, Inject } from '@angular/core';
-import { LoggingService } from '@angularlicious/logging';
-import { ServiceBase } from '@angularlicious/foundation';
+import { LoggingService } from '@ngx-architecture/logging';
+import { ServiceBase } from '@ngx-architecture/foundation';
 import { Observable } from 'rxjs';
 import { BusinessProviderService } from './business/business-provider.service';
 

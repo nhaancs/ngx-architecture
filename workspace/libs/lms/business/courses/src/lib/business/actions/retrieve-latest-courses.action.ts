@@ -1,5 +1,5 @@
 import { BusinessActionBase } from './business-action-base';
-import { Severity } from '@angularlicious/logging';
+import { Severity } from '@ngx-architecture/logging';
 
 export class RetrieveLatestCoursesAction<T> extends BusinessActionBase<T> {
   constructor() {

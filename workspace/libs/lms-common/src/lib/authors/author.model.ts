@@ -1,5 +1,5 @@
 import { AuthorStatus } from './author-status.enum';
-import { User } from '@angularlicious/lms-common';
+import { User } from '@ngx-architecture/lms-common';
 
 export class Author {
   bio: string;

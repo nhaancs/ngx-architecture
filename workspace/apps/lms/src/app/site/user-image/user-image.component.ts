@@ -1,9 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ComponentBase } from '@angularlicious/foundation';
-import { LoggingService } from '@angularlicious/logging';
+import { ComponentBase } from '@ngx-architecture/foundation';
+import { LoggingService } from '@ngx-architecture/logging';
 import { Router } from '@angular/router';
-import { AuthenticationService } from '@angularlicious/security';
-import { User } from '@angularlicious/lms-common';
+import { AuthenticationService } from '@ngx-architecture/security';
+import { User } from '@ngx-architecture/lms-common';
 
 @Component({
   selector: 'lms-user-image',

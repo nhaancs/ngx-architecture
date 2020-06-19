@@ -1,5 +1,5 @@
-﻿import { ValidationContext } from '@angularlicious/rules-engine';
-import { ValidationContextState } from '@angularlicious/rules-engine';
+﻿import { ValidationContext } from '@ngx-architecture/rules-engine';
+import { ValidationContextState } from '@ngx-architecture/rules-engine';
 import { IAction } from './IAction';
 import { ActionResult } from './ActionResult';
 

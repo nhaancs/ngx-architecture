@@ -1,10 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ComponentBase } from '@angularlicious/foundation';
-import { AuthenticationService, AuthProviderDialog } from '@angularlicious/security';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { ComponentBase } from '@ngx-architecture/foundation';
+import { AuthenticationService, AuthProviderDialog } from '@ngx-architecture/security';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 import { Router } from '@angular/router';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { User } from '@angularlicious/lms-common';
+import { User } from '@ngx-architecture/lms-common';
 import { Observable } from 'rxjs';
 
 @Component({

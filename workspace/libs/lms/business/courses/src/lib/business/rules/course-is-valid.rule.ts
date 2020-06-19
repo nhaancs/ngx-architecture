@@ -2,8 +2,8 @@ import {
   CompositeRule,
   IsNotNullOrUndefined,
   StringIsNotNullEmptyRange,
-} from '@angularlicious/rules-engine';
-import { Course } from '@angularlicious/lms-common';
+} from '@ngx-architecture/rules-engine';
+import { Course } from '@ngx-architecture/lms-common';
 
 export class CourseIsValidRule extends CompositeRule {
   constructor(name: string, message: string, private target: Course, isDisplayable: boolean) {

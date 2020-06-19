@@ -16,18 +16,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angularlicious/configuration": ["libs/configuration/src/index.ts"],
-      "@angularlicious/error-handling": ["libs/error-handling/src/index.ts"],
-      "@angularlicious/logging": ["libs/logging/src/index.ts"],
-      "@angularlicious/rules-engine": ["libs/rules-engine/src/index.ts"],
-      "@angularlicious/actions": ["libs/actions/src/index.ts"],
-      "@angularlicious/http-service": ["libs/http-service/src/index.ts"],
-      "@angularlicious/foundation": ["libs/foundation/src/index.ts"],
-      "@angularlicious/lms-common": ["libs/lms-common/src/index.ts"],
-      "@angularlicious/lms/business/courses": ["libs/lms/business/courses/src/index.ts"],
-      "@angularlicious/security": ["libs/security/src/index.ts"],
-      "@angularlicious/components": ["libs/components/src/index.ts"],
-      "@angularlicious/lms/business/authors": ["libs/lms/business/authors/src/index.ts"]
+      "@ngx-architecture/configuration": ["libs/configuration/src/index.ts"],
+      "@ngx-architecture/error-handling": ["libs/error-handling/src/index.ts"],
+      "@ngx-architecture/logging": ["libs/logging/src/index.ts"],
+      "@ngx-architecture/rules-engine": ["libs/rules-engine/src/index.ts"],
+      "@ngx-architecture/actions": ["libs/actions/src/index.ts"],
+      "@ngx-architecture/http-service": ["libs/http-service/src/index.ts"],
+      "@ngx-architecture/foundation": ["libs/foundation/src/index.ts"],
+      "@ngx-architecture/lms-common": ["libs/lms-common/src/index.ts"],
+      "@ngx-architecture/lms/business/courses": ["libs/lms/business/courses/src/index.ts"],
+      "@ngx-architecture/security": ["libs/security/src/index.ts"],
+      "@ngx-architecture/components": ["libs/components/src/index.ts"],
+      "@ngx-architecture/lms/business/authors": ["libs/lms/business/authors/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

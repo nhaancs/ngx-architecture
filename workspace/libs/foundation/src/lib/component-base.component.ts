@@ -1,9 +1,9 @@
 import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
 
-import { MessageType, ServiceContext, ServiceMessage } from '@angularlicious/rules-engine';
+import { MessageType, ServiceContext, ServiceMessage } from '@ngx-architecture/rules-engine';
 import { ErrorResponse } from './models/error-response.model';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 import { AlertNotification } from './models/alert-notification.model';
 import { AlertTypes } from './models/alert-types.constants';
 

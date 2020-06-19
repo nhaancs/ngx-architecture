@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Course, Video, Author } from '@angularlicious/lms-common';
-import { Severity, LoggingService } from '@angularlicious/logging';
-import { ComponentBase } from '@angularlicious/foundation';
+import { Course, Video, Author } from '@ngx-architecture/lms-common';
+import { Severity, LoggingService } from '@ngx-architecture/logging';
+import { ComponentBase } from '@ngx-architecture/foundation';
 import { Router, ActivatedRoute } from '@angular/router';
 import { CoursesUIService } from '../courses-ui.service';
 import { Observable } from 'rxjs';

@@ -1,10 +1,10 @@
 import { LogWriter } from './log-writer';
 import { ILogEntry } from '../i-log-entry';
-import { ConfigurationService } from '@angularlicious/configuration';
+import { ConfigurationService } from '@ngx-architecture/configuration';
 import { Optional, Injectable } from '@angular/core';
 import { LogglyService } from 'ngx-loggly-logger';
 import { LoggingService } from '../logging.service';
-import { IConfiguration } from '@angularlicious/configuration';
+import { IConfiguration } from '@ngx-architecture/configuration';
 import { LogglyConfig } from './../config/loggly-config';
 
 @Injectable()

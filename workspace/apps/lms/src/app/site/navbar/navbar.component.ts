@@ -2,9 +2,9 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 import { ROUTES } from '../sidebar/sidebar.component';
 import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { Router } from '@angular/router';
-import { AuthenticationService } from '@angularlicious/security';
+import { AuthenticationService } from '@ngx-architecture/security';
 import { Observable } from 'rxjs';
-import { User } from '@angularlicious/lms-common';
+import { User } from '@ngx-architecture/lms-common';
 
 @Component({
   selector: 'lms-navbar',

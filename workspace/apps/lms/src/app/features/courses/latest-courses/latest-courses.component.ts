@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { ComponentBase } from '@angularlicious/foundation';
-import { LoggingService } from '@angularlicious/logging';
+import { ComponentBase } from '@ngx-architecture/foundation';
+import { LoggingService } from '@ngx-architecture/logging';
 import { Router } from '@angular/router';
 import { CoursesUIService } from '../courses-ui.service';
 import { Observable } from 'rxjs';
 
-import { Course } from '@angularlicious/lms-common';
+import { Course } from '@ngx-architecture/lms-common';
 
 @Component({
   selector: 'lms-latest-courses',

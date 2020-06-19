@@ -1,10 +1,10 @@
 import { Injectable, Inject } from '@angular/core';
-import { ServiceBase, ApiResponse, SuccessApiResponse } from '@angularlicious/foundation';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { ServiceBase, ApiResponse, SuccessApiResponse } from '@ngx-architecture/foundation';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 import { Observable, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { HttpService } from '@angularlicious/http-service';
-import { Course, Author, CourseCategory } from '@angularlicious/lms-common';
+import { HttpService } from '@ngx-architecture/http-service';
+import { Course, Author, CourseCategory } from '@ngx-architecture/lms-common';
 @Injectable()
 export class HttpCourseRepositoryService extends ServiceBase {
   baseUrl = 'http://mybackend.com/api/'; //@@TODO: USE CONFIGURATION HERE;

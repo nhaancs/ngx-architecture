@@ -1,6 +1,6 @@
 import { Injectable, Inject } from '@angular/core';
-import { BusinessProviderBase } from '@angularlicious/foundation';
-import { LoggingService } from '@angularlicious/logging';
+import { BusinessProviderBase } from '@ngx-architecture/foundation';
+import { LoggingService } from '@ngx-architecture/logging';
 import { Observable } from 'rxjs';
 import { FirestoreUsersRepositoryService } from './firestore-users-repository.service';
 import { RetrieveUserAction } from './actions/retrieve-user.action';

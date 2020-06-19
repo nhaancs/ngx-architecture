@@ -13,8 +13,8 @@ import { BehaviorSubject } from 'rxjs';
 
 import { HttpRequestOptions } from './models/http-request-options';
 import { HttpRequestMethod } from './models/http-request-methods.enum';
-import { Severity } from '@angularlicious/logging';
-import { LoggingService } from '@angularlicious/logging';
+import { Severity } from '@ngx-architecture/logging';
+import { LoggingService } from '@ngx-architecture/logging';
 import { ErrorResponse } from './models/error-response.model';
 import { ServiceResponse } from './models/service-response.model';
 import { ApiResponse } from './models/api/api-response';

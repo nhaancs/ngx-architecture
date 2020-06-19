@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Author } from '@angularlicious/lms-common';
-import { ComponentBase } from '@angularlicious/foundation';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { Author } from '@ngx-architecture/lms-common';
+import { ComponentBase } from '@ngx-architecture/foundation';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 import { Router } from '@angular/router';
 
 @Component({

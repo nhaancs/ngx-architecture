@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Video } from '@angularlicious/lms-common';
+import { Video } from '@ngx-architecture/lms-common';
 import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
-import { ComponentBase } from '@angularlicious/foundation';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { ComponentBase } from '@ngx-architecture/foundation';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 import { Router } from '@angular/router';
 
 @Component({

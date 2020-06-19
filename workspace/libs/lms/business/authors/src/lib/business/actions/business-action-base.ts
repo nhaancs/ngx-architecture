@@ -1,5 +1,5 @@
-import { LoggingService } from '@angularlicious/logging';
-import { ActionBase, ApiResponse } from '@angularlicious/foundation';
+import { LoggingService } from '@ngx-architecture/logging';
+import { ActionBase, ApiResponse } from '@ngx-architecture/foundation';
 import { Observable } from 'rxjs';
 import { BusinessProviderService } from './../business-provider.service';
 

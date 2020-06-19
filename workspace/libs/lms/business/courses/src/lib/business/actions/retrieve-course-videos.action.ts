@@ -1,7 +1,7 @@
 import { BusinessActionBase } from './business-action-base';
-import { Course } from '@angularlicious/lms-common';
-import { Severity } from '@angularlicious/logging';
-import { IsNotNullOrUndefined, StringIsNotNullEmptyRange } from '@angularlicious/rules-engine';
+import { Course } from '@ngx-architecture/lms-common';
+import { Severity } from '@ngx-architecture/logging';
+import { IsNotNullOrUndefined, StringIsNotNullEmptyRange } from '@ngx-architecture/rules-engine';
 
 export class RetrieveCourseVideosAction<T> extends BusinessActionBase<T> {
   private course: Course;

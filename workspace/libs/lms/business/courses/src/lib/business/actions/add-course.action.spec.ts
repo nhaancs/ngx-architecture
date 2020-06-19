@@ -1,5 +1,5 @@
 import { AddCourseAction } from './add-course.action';
-import { Course } from '@angularlicious/lms-common';
+import { Course } from '@ngx-architecture/lms-common';
 
 describe('AddCourseAction', () => {
   it('should create an instance', () => {

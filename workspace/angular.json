@@ -135,7 +135,7 @@
       "projectType": "library",
       "root": "libs/logging",
       "sourceRoot": "libs/logging/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -170,7 +170,7 @@
       "projectType": "library",
       "root": "libs/error-handling",
       "sourceRoot": "libs/error-handling/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -208,7 +208,7 @@
       "projectType": "library",
       "root": "libs/configuration",
       "sourceRoot": "libs/configuration/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -246,7 +246,7 @@
       "projectType": "library",
       "root": "libs/rules-engine",
       "sourceRoot": "libs/rules-engine/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -284,7 +284,7 @@
       "projectType": "library",
       "root": "libs/actions",
       "sourceRoot": "libs/actions/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -319,7 +319,7 @@
       "projectType": "library",
       "root": "libs/http-service",
       "sourceRoot": "libs/http-service/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -357,7 +357,7 @@
       "projectType": "library",
       "root": "libs/foundation",
       "sourceRoot": "libs/foundation/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -395,7 +395,7 @@
       "projectType": "library",
       "root": "libs/lms-common",
       "sourceRoot": "libs/lms-common/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
@@ -426,7 +426,7 @@
       "projectType": "library",
       "root": "libs/lms/business/courses",
       "sourceRoot": "libs/lms/business/courses/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
@@ -457,7 +457,7 @@
       "projectType": "library",
       "root": "libs/security",
       "sourceRoot": "libs/security/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -492,7 +492,7 @@
       "projectType": "library",
       "root": "libs/components",
       "sourceRoot": "libs/components/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -530,7 +530,7 @@
       "projectType": "library",
       "root": "libs/lms/business/authors",
       "sourceRoot": "libs/lms/business/authors/src",
-      "prefix": "angularlicious",
+      "prefix": "ngx-architecture",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",

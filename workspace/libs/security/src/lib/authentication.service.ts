@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { ServiceBase } from '@angularlicious/foundation';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { ServiceBase } from '@ngx-architecture/foundation';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 
 import { AngularFireAuth } from '@angular/fire/auth';
 import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
 import * as firebase from 'firebase';
 import { from, Subject, ReplaySubject, Observable } from 'rxjs';
-import { User } from '@angularlicious/lms-common';
+import { User } from '@ngx-architecture/lms-common';
 
 @Injectable({
   providedIn: 'root',

@@ -4,9 +4,9 @@ import { HttpHeaders, HttpClient, HttpResponse, HttpErrorResponse } from '@angul
 import { HttpRequestOptions } from './http-request-options';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
-import { ApiResponse } from '@angularlicious/foundation';
-import { ErrorApiResponse } from '@angularlicious/foundation';
-import { ApiErrorMessage } from '@angularlicious/foundation';
+import { ApiResponse } from '@ngx-architecture/foundation';
+import { ErrorApiResponse } from '@ngx-architecture/foundation';
+import { ApiErrorMessage } from '@ngx-architecture/foundation';
 
 @Injectable()
 // { providedIn: 'root', }

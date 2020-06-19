@@ -1,10 +1,10 @@
 import { NgModule, APP_INITIALIZER, ErrorHandler } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoggingService, LoggingModule, LogglyWriter } from '@angularlicious/logging';
-import { ConfigurationService, ConfigurationModule } from '@angularlicious/configuration';
-import { ConsoleWriter } from '@angularlicious/logging';
-import { ErrorHandlingModule, ErrorHandlingService } from '@angularlicious/error-handling';
-import { SecurityModule, AuthenticationService } from '@angularlicious/security';
+import { LoggingService, LoggingModule, LogglyWriter } from '@ngx-architecture/logging';
+import { ConfigurationService, ConfigurationModule } from '@ngx-architecture/configuration';
+import { ConsoleWriter } from '@ngx-architecture/logging';
+import { ErrorHandlingModule, ErrorHandlingService } from '@ngx-architecture/error-handling';
+import { SecurityModule, AuthenticationService } from '@ngx-architecture/security';
 import { environment } from './../../../environments/environment';
 
 /**

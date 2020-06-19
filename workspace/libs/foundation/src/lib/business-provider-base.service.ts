@@ -1,9 +1,9 @@
-import { LoggingService } from '@angularlicious/logging';
+import { LoggingService } from '@ngx-architecture/logging';
 
-import { ServiceContext } from '@angularlicious/rules-engine';
-import { ServiceMessage } from '@angularlicious/rules-engine';
-import { MessageType } from '@angularlicious/rules-engine';
-import { Severity } from '@angularlicious/logging';
+import { ServiceContext } from '@ngx-architecture/rules-engine';
+import { ServiceMessage } from '@ngx-architecture/rules-engine';
+import { MessageType } from '@ngx-architecture/rules-engine';
+import { Severity } from '@ngx-architecture/logging';
 
 /**
  * Use the business provider base class to access common elements of the business provider.

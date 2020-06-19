@@ -1,4 +1,4 @@
-import * as rules from '@angularlicious/rules-engine';
+import * as rules from '@ngx-architecture/rules-engine';
 import { CompositeRule } from './CompositeRule';
 
 /**

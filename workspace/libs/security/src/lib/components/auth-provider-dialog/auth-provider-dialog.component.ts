@@ -2,13 +2,13 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { AuthProviderData } from '../../models/auth-provider-data.model';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { AuthenticationService } from '../../authentication.service';
-import { ComponentBase } from '@angularlicious/foundation';
+import { ComponentBase } from '@ngx-architecture/foundation';
 import { Router } from '@angular/router';
-import { LoggingService } from '@angularlicious/logging';
+import { LoggingService } from '@ngx-architecture/logging';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'angularlicious-auth-provider-dialog',
+  selector: 'ngx-architecture-auth-provider-dialog',
   templateUrl: './auth-provider-dialog.component.html',
   styleUrls: ['./auth-provider-dialog.component.scss'],
 })

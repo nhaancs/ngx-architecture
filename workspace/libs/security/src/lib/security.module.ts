@@ -6,7 +6,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AuthProviderDialog } from './components/auth-provider-dialog/auth-provider-dialog.component';
 import { BusinessProviderService } from './business/business-provider.service';
 import { FirestoreUsersRepositoryService } from './business/firestore-users-repository.service';
-import { HttpService } from '@angularlicious/http-service';
+import { HttpService } from '@ngx-architecture/http-service';
 
 const firebaseOptions = {
   apiKey: 'AIzaSyB1pOJXZOLaQ7LfYoXWRbi-5x-Ag7KAdao',

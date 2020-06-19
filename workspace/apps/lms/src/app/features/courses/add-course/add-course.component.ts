@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ComponentBase } from '@angularlicious/foundation';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { ComponentBase } from '@ngx-architecture/foundation';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
-import { CourseCategory, Course } from '@angularlicious/lms-common';
+import { CourseCategory, Course } from '@ngx-architecture/lms-common';
 import { CoursesUIService } from '../courses-ui.service';
 import { Observable } from 'rxjs';
 

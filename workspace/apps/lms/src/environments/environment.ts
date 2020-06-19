@@ -1,5 +1,5 @@
 import { AppConfig } from '../assets/config/app.config.development';
-// import { IConfiguration } from '@angularlicious/configuration';
+// import { IConfiguration } from '@ngx-architecture/configuration';
 
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.

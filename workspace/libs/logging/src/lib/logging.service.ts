@@ -1,8 +1,8 @@
 import { Injectable, Optional } from '@angular/core';
 
 import { Severity } from './severity.enum';
-import { IConfiguration } from '@angularlicious/configuration';
-import { ConfigurationService } from '@angularlicious/configuration';
+import { IConfiguration } from '@ngx-architecture/configuration';
+import { ConfigurationService } from '@ngx-architecture/configuration';
 import { LogEntry } from './log-entry';
 import { Subject, ReplaySubject } from 'rxjs';
 import { ILogEntry } from './i-log-entry';

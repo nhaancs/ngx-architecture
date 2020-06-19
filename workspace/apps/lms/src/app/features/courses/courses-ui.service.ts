@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { ReplaySubject, Observable, Subscription, BehaviorSubject } from 'rxjs';
-import { Course, Video, Author, User } from '@angularlicious/lms-common';
-import { ServiceBase } from '@angularlicious/foundation';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { Course, Video, Author, User } from '@ngx-architecture/lms-common';
+import { ServiceBase } from '@ngx-architecture/foundation';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 
-import { CoursesService } from '@angularlicious/lms/business/courses';
-import { AuthorsService } from '@angularlicious/lms/business/authors';
+import { CoursesService } from '@ngx-architecture/lms/business/courses';
+import { AuthorsService } from '@ngx-architecture/lms/business/authors';
 import { Router } from '@angular/router';
-import { UserService } from '@angularlicious/security';
+import { UserService } from '@ngx-architecture/security';
 
 /**
  * Use this service as a mediator between feature module components and the core domain
@@ -72,13 +72,11 @@ export class CoursesUIService extends ServiceBase {
       `Preparing to call the [Course] Service to process request to add new course.`
     );
 
-    this.coursesService
-      .addCourse<Course>(course)
-      .subscribe(
-        response => this.handleAddCourseResponse(response),
-        error => this.handleError(error),
-        () => this.finishRequest(`Finished request to add new course.`)
-      );
+    this.coursesService.addCourse<Course>(course).subscribe(
+      response => this.handleAddCourseResponse(response),
+      error => this.handleError(error),
+      () => this.finishRequest(`Finished request to add new course.`)
+    );
   }
 
   /**
@@ -140,13 +138,11 @@ export class CoursesUIService extends ServiceBase {
       `Preparing to retrieve course [author] information.`
     );
 
-    this.authorsService
-      .retrieveAuthor<Author>(course.authorId.id)
-      .subscribe(
-        response => this.handleRetrieveAuthorResponse(response),
-        error => this.handleError(error),
-        () => this.finishRequest(`Finished handling request for author information.`)
-      );
+    this.authorsService.retrieveAuthor<Author>(course.authorId.id).subscribe(
+      response => this.handleRetrieveAuthorResponse(response),
+      error => this.handleError(error),
+      () => this.finishRequest(`Finished handling request for author information.`)
+    );
   }
 
   private retrieveCourseVideos(course: Course) {
@@ -155,13 +151,11 @@ export class CoursesUIService extends ServiceBase {
       Severity.Information,
       `Preparing to retrieve course videos.`
     );
-    this.coursesService
-      .retrieveCourseVideos<Video[]>(course)
-      .subscribe(
-        response => this.handleCourseVideosResponse(response),
-        error => this.handleError(error),
-        () => this.finishRequest(`Finished request for course videos.`)
-      );
+    this.coursesService.retrieveCourseVideos<Video[]>(course).subscribe(
+      response => this.handleCourseVideosResponse(response),
+      error => this.handleError(error),
+      () => this.finishRequest(`Finished request for course videos.`)
+    );
   }
 
   /**
@@ -169,13 +163,11 @@ export class CoursesUIService extends ServiceBase {
    */
   private retrieveAuthorDetails() {
     // retrieve user information for the specified author;
-    this.userService
-      .retrieveUser<User>(this.author.userId)
-      .subscribe(
-        response => this.handleUserResponse(response),
-        error => this.handleError(error),
-        () => this.finishRequest(`Finished request for author user information.`)
-      );
+    this.userService.retrieveUser<User>(this.author.userId).subscribe(
+      response => this.handleUserResponse(response),
+      error => this.handleError(error),
+      () => this.finishRequest(`Finished request for author user information.`)
+    );
   }
 
   /**

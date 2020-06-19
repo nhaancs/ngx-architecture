@@ -1,17 +1,17 @@
 import { Observable, throwError } from 'rxjs';
 // // import { Response } from '@angular/http';
 
-import { Action } from '@angularlicious/actions';
-import { ValidationContext } from '@angularlicious/rules-engine';
-import { ServiceMessage } from '@angularlicious/rules-engine';
-import { MessageType } from '@angularlicious/rules-engine';
-import { ServiceContext } from '@angularlicious/rules-engine';
-import { ActionResult } from '@angularlicious/actions';
-import { CompositeRule } from '@angularlicious/rules-engine';
-import { RuleResult } from '@angularlicious/rules-engine';
+import { Action } from '@ngx-architecture/actions';
+import { ValidationContext } from '@ngx-architecture/rules-engine';
+import { ServiceMessage } from '@ngx-architecture/rules-engine';
+import { MessageType } from '@ngx-architecture/rules-engine';
+import { ServiceContext } from '@ngx-architecture/rules-engine';
+import { ActionResult } from '@ngx-architecture/actions';
+import { CompositeRule } from '@ngx-architecture/rules-engine';
+import { RuleResult } from '@ngx-architecture/rules-engine';
 
-import { LoggingService } from '@angularlicious/logging';
-import { Severity } from '@angularlicious/logging';
+import { LoggingService } from '@ngx-architecture/logging';
+import { Severity } from '@ngx-architecture/logging';
 import { HttpBaseService } from './http-base.service';
 import { ErrorResponse } from './models/error-response.model';
 

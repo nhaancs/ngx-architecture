@@ -4,7 +4,7 @@ import {
   IsTrue,
   IsNotNullOrUndefined,
   StringIsNotNullEmptyRange,
-} from '@angularlicious/rules-engine';
+} from '@ngx-architecture/rules-engine';
 import { ILogEntry } from '../i-log-entry';
 
 // @Injectable()

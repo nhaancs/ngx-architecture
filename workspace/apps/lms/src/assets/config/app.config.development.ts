@@ -1,7 +1,7 @@
-import { IConfiguration } from '@angularlicious/configuration';
-import { ILoggingConfig } from '@angularlicious/logging';
-import { IErrorHandingConfig } from '@angularlicious/error-handling';
-import { ILogglyConfig } from '@angularlicious/logging';
+import { IConfiguration } from '@ngx-architecture/configuration';
+import { ILoggingConfig } from '@ngx-architecture/logging';
+import { IErrorHandingConfig } from '@ngx-architecture/error-handling';
+import { ILogglyConfig } from '@ngx-architecture/logging';
 
 export class AppConfig implements IConfiguration {
   applicationName: 'BuildMotion';

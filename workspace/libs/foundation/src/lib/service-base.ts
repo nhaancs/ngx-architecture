@@ -1,5 +1,5 @@
-import { ServiceContext, MessageType, ServiceMessage } from '@angularlicious/rules-engine';
-import { LoggingService, Severity } from '@angularlicious/logging';
+import { ServiceContext, MessageType, ServiceMessage } from '@ngx-architecture/rules-engine';
+import { LoggingService, Severity } from '@ngx-architecture/logging';
 import { ErrorResponse } from './models/error-response.model';
 import { OAuthErrorResponse } from './models/oauth-error-response.model';
 import { BehaviorSubject } from 'rxjs';

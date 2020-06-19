@@ -1,11 +1,11 @@
 import { Injectable, Inject } from '@angular/core';
-import { BusinessProviderBase } from '@angularlicious/foundation';
-import { LoggingService } from '@angularlicious/logging';
+import { BusinessProviderBase } from '@ngx-architecture/foundation';
+import { LoggingService } from '@ngx-architecture/logging';
 import { Observable } from 'rxjs';
 import { RetrieveLatestCoursesAction } from './actions/retrieve-latest-courses.action';
 import { AddCourseAction } from './actions/add-course.action';
 import { FirestoreCourseRepositoryService } from './firestore-course-repository.service';
-import { Course } from '@angularlicious/lms-common';
+import { Course } from '@ngx-architecture/lms-common';
 import { RetrieveCourseVideosAction } from './actions/retrieve-course-videos.action';
 
 /**
