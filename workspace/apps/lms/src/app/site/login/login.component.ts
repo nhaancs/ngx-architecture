@@ -3,7 +3,7 @@ import { ComponentBase } from '@angularlicious/foundation';
 import { AuthenticationService, AuthProviderDialog } from '@angularlicious/security';
 import { LoggingService, Severity } from '@angularlicious/logging';
 import { Router } from '@angular/router';
-import { MatDialog, MatDialogConfig } from '@angular/material';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { User } from '@angularlicious/lms-common';
 import { Observable } from 'rxjs';
 

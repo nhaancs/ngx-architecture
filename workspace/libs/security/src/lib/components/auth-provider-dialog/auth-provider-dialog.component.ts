@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { AuthProviderData } from '../../models/auth-provider-data.model';
-import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { AuthenticationService } from '../../authentication.service';
 import { ComponentBase } from '@angularlicious/foundation';
 import { Router } from '@angular/router';
