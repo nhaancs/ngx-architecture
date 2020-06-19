@@ -8,12 +8,12 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { FirestoreAuthorsRepositoryService } from './business/firestore-authors-repository.service';
 
 const firebaseOptions = {
-  apiKey: 'YOUR-GOOGLE-API-KEY-HERE',
-  authDomain: 'AUTH-DOMAIN-HERE',
-  databaseURL: 'FIREBASE-DATABASE-URL',
-  projectId: 'FIREBASE-PROJECT-ID-HERE',
-  storageBucket: 'FIREBASE-STORAGE-BUCKET',
-  messagingSenderId: '',
+  apiKey: 'AIzaSyB1pOJXZOLaQ7LfYoXWRbi-5x-Ag7KAdao',
+  authDomain: 'angular-architecture-demo.firebaseapp.com',
+  databaseURL: 'https://angular-architecture-demo.firebaseio.com',
+  projectId: 'angular-architecture-demo',
+  storageBucket: 'angular-architecture-demo.appspot.com',
+  messagingSenderId: '843006463537',
 };
 
 @NgModule({

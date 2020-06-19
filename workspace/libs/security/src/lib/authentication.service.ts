@@ -127,9 +127,10 @@ export class AuthenticationService extends ServiceBase {
 
   private updateUser(user: any) {
     const userRef: AngularFirestoreDocument<User> = this.firestore.doc(`users/${user.uid}`);
-    const data = {
-      ...user,
-    };
+    // const data = {
+    //   ...user,
+    // };
+    const data = User.toRequest(user);
 
     userRef.set(data);
   }
